@@ -1,34 +1,46 @@
-# vue-google-map
+# Vue 3 Google Maps
 
-## Project setup
-```
-yarn install
-```
+Google Maps Loader for Vue 3
 
-### Compiles and hot-reloads for development
+## Install
 ```
-yarn serve
-```
+npm install @point-hub/vue-google-maps
 
-### Compiles and minifies for production
-```
-yarn build
+or
+
+yarn add @point-hub/vue-google-maps
 ```
 
-### Run your unit tests
+## Usage
 ```
-yarn test:unit
-```
+<template>
+  <vue-google-maps
+    style="width: 100%; height: 300px"
+    :map-config="mapConfig"
+    :api-key="apiKey"
+  ></vue-google-maps>
+</template>
 
-### Run your end-to-end tests
-```
-yarn test:e2e
-```
+<script>
+import VueGoogleMaps from "@point-hub/vue-google-maps";
 
-### Lints and fixes files
-```
-yarn lint
-```
+export default {
+  components: {
+    VueGoogleMaps
+  },
+  data() {
+    return {
+      apiKey: process.env.VUE_APP_GMAP_API_KEY,
+      mapConfig: {
+        zoom: 16,
+        center: {
+          lat: -7,
+          lng: 112
+        }
+      }
+    };
+  }
+};
+</script>
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
