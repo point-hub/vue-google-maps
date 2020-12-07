@@ -1,6 +1,6 @@
 {
   "name": "@point-hub/vue-google-maps",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "main": "./dist/vue-google-maps.common.js",
   "scripts": {
@@ -9,7 +9,8 @@
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
-    "build-lib": "vue-cli-service build --target lib --name vue-google-maps ./src/vue-google-maps/MapLoader.vue --dest ./dist"
+    "build-lib": "vue-cli-service build --target lib --name vue-google-maps ./src/vue-google-maps/MapLoader.vue --dest ./dist",
+    "publish": "npm publish --access public"
   },
   "dependencies": {
     "@point-hub/google-maps-api": "^1.0.0",
