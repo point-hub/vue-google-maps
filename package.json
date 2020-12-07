@@ -1,7 +1,7 @@
 {
   "name": "@point-hub/vue-google-maps",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "main": "./dist/vue-google-maps.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
