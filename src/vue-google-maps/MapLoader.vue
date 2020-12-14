@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="map"></div>
+    <div id="map" style="width:100%;height:100%"></div>
   </div>
 </template>
 
@@ -51,10 +51,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-#map {
-  height: 100%;
-  width: 100%;
-}
-</style>

@@ -162,17 +162,6 @@ module.exports = !DESCRIPTORS && !fails(function () {
 
 /***/ }),
 
-/***/ "113c":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_MapLoader_vue_vue_type_style_index_0_id_3442a481_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("4497");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_MapLoader_vue_vue_type_style_index_0_id_3442a481_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_v16_dist_index_js_ref_0_1_MapLoader_vue_vue_type_style_index_0_id_3442a481_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
-
-/***/ }),
-
 /***/ "1368":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1587,13 +1576,6 @@ exports.uptime = exports.memoryUsage =
 exports.uvCounters = function() {};
 exports.features = {};
 
-
-/***/ }),
-
-/***/ "4497":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -3086,23 +3068,21 @@ if (typeof window !== 'undefined') {
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/vue-google-maps/MapLoader.vue?vue&type=template&id=3442a481&scoped=true&bindings={"mapConfig":"props","apiKey":"props","libraries":"props","google":"data","map":"data","initializeMap":"options"}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader-v16/dist??ref--0-1!./src/vue-google-maps/MapLoader.vue?vue&type=template&id=113dbd34&bindings={"mapConfig":"props","apiKey":"props","libraries":"props","google":"data","map":"data","initializeMap":"options"}
 
-
-var _withId = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["withScopeId"])("data-v-3442a481");
-
-Object(external_commonjs_vue_commonjs2_vue_root_Vue_["pushScopeId"])("data-v-3442a481");
 
 var _hoisted_1 = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createVNode"])("div", {
-  id: "map"
+  id: "map",
+  style: {
+    "width": "100%",
+    "height": "100%"
+  }
 }, null, -1);
 
-Object(external_commonjs_vue_commonjs2_vue_root_Vue_["popScopeId"])();
-
-var MapLoadervue_type_template_id_3442a481_scoped_true_bindings_mapConfig_props_apiKey_props_libraries_props_google_data_map_data_initializeMap_options_render = /*#__PURE__*/_withId(function render(_ctx, _cache, $props, $setup, $data, $options) {
+function render(_ctx, _cache, $props, $setup, $data, $options) {
   return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createBlock"])("div", null, [_hoisted_1]);
-});
-// CONCATENATED MODULE: ./src/vue-google-maps/MapLoader.vue?vue&type=template&id=3442a481&scoped=true&bindings={"mapConfig":"props","apiKey":"props","libraries":"props","google":"data","map":"data","initializeMap":"options"}
+}
+// CONCATENATED MODULE: ./src/vue-google-maps/MapLoader.vue?vue&type=template&id=113dbd34&bindings={"mapConfig":"props","apiKey":"props","libraries":"props","google":"data","map":"data","initializeMap":"options"}
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.map.js
 var es_array_map = __webpack_require__("d81d");
@@ -3162,17 +3142,11 @@ var src_default = /*#__PURE__*/__webpack_require__.n(google_maps_api_src);
 });
 // CONCATENATED MODULE: ./src/vue-google-maps/MapLoader.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./src/vue-google-maps/MapLoader.vue?vue&type=style&index=0&id=3442a481&scoped=true&lang=css
-var MapLoadervue_type_style_index_0_id_3442a481_scoped_true_lang_css = __webpack_require__("113c");
-
 // CONCATENATED MODULE: ./src/vue-google-maps/MapLoader.vue
 
 
 
-
-
-MapLoadervue_type_script_lang_js.render = MapLoadervue_type_template_id_3442a481_scoped_true_bindings_mapConfig_props_apiKey_props_libraries_props_google_data_map_data_initializeMap_options_render
-MapLoadervue_type_script_lang_js.__scopeId = "data-v-3442a481"
+MapLoadervue_type_script_lang_js.render = render
 
 /* harmony default export */ var MapLoader = (MapLoadervue_type_script_lang_js);
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
